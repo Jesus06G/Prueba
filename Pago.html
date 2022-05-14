@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/pago.css">
+  <title>Completar Compra</title>
+</head>
+<body>
+  <div class='container'>
+    <div class='window'>
+      <div class='order-info'>
+        <div class='order-info-content'>
+          <h2>Su Pedido</h2>
+                  <div class='line'></div>
+          <table class='order-table'>
+            <tbody>
+              <tr>
+                <td><img src='images/Productos/4.jpg' class='full-width'></img>
+                </td>
+                <td>
+                  <br> <span class='thin'>Canasto Urutú</span><br>
+                 <span class='thin small'> Técnica: Cestería <br> Materia Prima: Caña Warumá<br><br></span>
+                </td>
+  
+              </tr>
+              <tr>
+                <td>
+                  <div class='price'>$45.000</div>
+                </td>
+              </tr>
+            </tbody>
+  
+          </table>
+          <div class='line'></div>
+          <table class='order-table'>
+            <tbody>
+              <tr>
+                <td><img src='images/Productos/3.jpg' class='full-width'></img>
+                </td>
+                <td>
+                  <br> <span class='thin'>Pantallas</span><br>
+                 <span class='thin small'> Técnica: Cestería<br> Materia Prima: Fibra de Waramá<br><br></span>
+                </td>
+  
+              </tr>
+              <tr>
+                <td>
+                  <div class='price'>$35.000</div>
+                </td>
+              </tr>
+            </tbody>
+  
+          </table>
+        
+        <div class='line'></div>
+        <table class='order-table'>
+          <tbody>
+            <tr>
+              <td><img src='images/Productos/6.jpg' class='full-width'></img>
+              </td>
+              <td>
+                <br> <span class='thin'>Canasto Nukak Makú</span><br>
+               <span class='thin small'>Técnica: Trenzado<br> Materia Prima: Bejuco de Yaré<br><br></span>
+              </td>
+
+            </tr>
+            <tr>
+              <td>
+                <div class='price'>$28.000</div>
+              </td>
+            </tr>
+          </tbody>
+
+        </table>
+          <div class='line'></div>
+          <div class='total'>
+            <span style='float:left;'>
+              <div class='thin dense'>IVA 19%</div>
+              <div class='thin dense'>DOMICILIO</div>
+              TOTAL
+            </span>
+            <span style='float:right; text-align:right;'>
+              <div class='thin dense'>$20.520</div>
+              <div class='thin dense'>$5.000</div>
+              $133.520
+            </span>
+          </div>
+  </div>
+  </div>
+          <div class='credit-info'>
+            <div class='credit-info-content'>
+              <table class='half-input-table'>
+                <tr><td>Seleccione el metodo de pago: </td><td><div class='dropdown' id='card-dropdown'><div class='dropdown-btn' id='current-card'>Nequi</div>
+                  <div class='dropdown-select'>
+                  <ul>
+                    <li>Daviplata</li>
+                    <li>Efecty</li>
+                    </ul></div>
+                  </div>
+                 </td></tr>
+              </table>
+              <img src='images/nequi-logo.png' height='80' class='credit-card-image' id='credit-card-image'></img>
+              Numero de Cuenta
+              <input class='input-field'></input>
+              Nombre Completo
+              <input class='input-field'></input>
+              <table class='half-input-table'>
+               
+              </table>
+              <button class='pay-btn'>Pagar</button>
+  
+            </div>
+  
+          </div>
+        </div>
+  </div>
+
+  <script src="js/pagos.js"></script>
+</body>
+</html>
